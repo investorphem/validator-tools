@@ -3,9 +3,9 @@
 [![npm version](https://img.shields.io/npm/v/@investorphem/validator-tools.svg?style=flat-square)](https://www.npmjs.com/package/@investorphem/validator-tools)
 [![npm downloads](https://img.shields.io/npm/dm/@investorphem/validator-tools.svg?style=flat-square)](https://www.npmjs.com/package/@investorphem/validator-tools)
 [![License](https://img.shields.io/npm/l/@investorphem/validator-tools.svg?style=flat-square)](LICENSE)
-[![Build Status](https://github.com/<your-username>/investorphem-validator-tools/actions/workflows/publish.yml/badge.svg)](https://github.com/<your-username>/investorphem-validator-tools/actions/workflows/publish.yml)
+[![Build Status](https://github.com/investorphem/validator-tools/actions/workflows/publish.yml/badge.svg)](https://github.com/investorphem/validator-tools/actions/workflows/publish.yml)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![Contributors](https://img.shields.io/github/contributors/<your-username>/investorphem-validator-tools.svg)](https://github.com/<your-username>/investorphem-validator-tools/graphs/contributors)
+[![Contributors](https://img.shields.io/github/contributors/investorphem/validator-tools.svg)](https://github.com/investorphem/validator-tools/graphs/contributors)
 
 ---
 
