@@ -3,9 +3,36 @@
   "version": "1.0.2",
   "description": "Lightweight JS validation library for emails, phone numbers, URLs, and strong passwords.",
   "main": "index.js",
-  "license": "MIT",
+  "type": "module",
   "scripts": {
-    "test": "echo \"No tests yet\" && exit 0"
+    "test": "echo \"No tests yet\" && exit 0",
+    "release": "npm version patch && git push --follow-tags"
   },
-  "author": "Oluwafemi Olagoke"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/investorphem/validator-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/investorphem/validator-tools/issues"
+  },
+  "homepage": "https://github.com/investorphem/validator-tools",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/investorphem"
+  },
+  "keywords": [
+    "validator",
+    "validation",
+    "email",
+    "password",
+    "url",
+    "phone",
+    "utils",
+    "investorphem"
+  ],
+  "author": "Oluwafemi Olagoke",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }
