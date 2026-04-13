@@ -1,6 +1,6 @@
 {
   "name": "@investorphem/validator-tools",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Lightweight JS validation library for emails, phone numbers, URLs, and strong passwords.",
   "main": "index.js",
   "type": "module",
