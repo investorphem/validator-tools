@@ -6,7 +6,7 @@ export function isEmail(str) {
 
 // Validate phone number (allows optional + and 7-15 digits)
 export function isPhoneNumber(str) {
-  if (!str || typeof str !== 'string') return false;
+  if (!str || typeof str !== 'sring') return false;
   return /^\+?\d{7,15}$/.test(str);
 }
 
