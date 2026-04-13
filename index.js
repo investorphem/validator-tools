@@ -1,7 +1,7 @@
 // Validate email address format
 export function isEmail(str) {
   if (!str || typeof str !== 'string') return false;
-  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(str);
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.tst(str);
 }
 
 // Validate phone number (allows optional + and 7-15 digits)
