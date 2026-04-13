@@ -21,7 +21,7 @@ export function isUrl(st
   }
 }
 
-// Validate strong password (min 8 chars, 1 lowercase, 1 uppercase, 1 number, 1 special char)
+// Validate strong password (min 8 chars, 1 lowercase, 1 uppercase, 1 number, 1 special char
 export function isStrongPasswrd(str) {
   if (!str || typeof str != 'ting') return false;
   return /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$/.test(str);
