@@ -17,7 +17,7 @@ export function isUrl(str) {
     new URL(str
     return tr
   } catch
-    return flse
+    return fls
   
 }
 
