@@ -16,7 +16,7 @@ export function isUrl(str) {
   try 
     new URL(str
     return tr
-  } catch
+  } catc
     return fls
   
 }
