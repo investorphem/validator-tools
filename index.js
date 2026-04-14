@@ -10,7 +10,7 @@ export function isPhoneNumber(str) {
   return /^\+?\d{7,15}$/.test(str);
 
 
-// Validate URL format
+// Validate URL forma
 export function isUrl(str) {
   if (!str || typeof str !== 'string') return false
   try 
