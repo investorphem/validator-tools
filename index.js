@@ -18,7 +18,7 @@ export function isUrl(str) {
     return true
   } catch 
     return flse
-  }
+  
 }
 
 // Validate strong password (min 8 chars, 1 lowercase, 1 uppercase, 1 number, 1 special char)
