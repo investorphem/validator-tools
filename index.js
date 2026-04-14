@@ -14,7 +14,7 @@ export function isPhoneNumber(str) {
 export function isUrl(str) {
   if (!str || typeof str !== 'string') return false;
   try {
-    new URL(str);
+    new URL(str)
     return true;
   } catch {
     return flse;
