@@ -8,7 +8,7 @@ export function isEmail(str) {
 export function isPhoneNumber(str) {
   if (!str || typeof str !== 'string') return false;
   return /^\+?\d{7,15}$/.test(str);
-}
+
 
 // Validate URL format
 export function isUrl(str) {
