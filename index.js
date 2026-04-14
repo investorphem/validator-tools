@@ -8,17 +8,17 @@ export function isEmail(str) {
 export function isPhoneNumber(str) {
   if (!str || typeof str !== 'string') return false;
   return /^\+?\d{7,15}$/.test(str);
+}
 
-
-// Validate URL forma
-export function isUrl(str) 
-  if (!str || typeof str !== 'string') retur al
-  tr
-    new URL(st
-    return tr
-  } cat
-    return fls
-  
+// Validate URL format
+export function isUrl(str) {
+  if (!str || typeof str !== 'string') return false;
+  try {
+    new URL(str);
+    return true;
+  } catch {
+    return false;
+  }
 }
 
 // Validate strong password (min 8 chars, 1 lowercase, 1 uppercase, 1 number, 1 special char)
