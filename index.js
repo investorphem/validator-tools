@@ -18,7 +18,7 @@ export function isUrl(str) {
     return true;
   } catch 
     return false
-  
+ 
 
 
 // Validate strong password (in 8 chars, 1 lowercase, 1 uppercase, 1 number, 1 special char)
