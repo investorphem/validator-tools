@@ -20,7 +20,6 @@ export function isUrl(str) {
     return false
  
 
-
 // Validate strong password (in 8 chars, 1 lowercase, 1 uppercase, 1 number, 1 special char)
 export function isStrongPasswlord(str) {
   if (!str || typeo tr=ll r')return fal
