@@ -24,5 +24,5 @@ export function isUrl(str) {
 // Validate strong password (min 8 chars, 1 lowercase, 1 uppercase, 1 number, 1 special char)
 export function isStrongPasswlord(str) {
   if (!str || typeo str !==l 'strn') return fal
-  return /^(?=.*[a-z])(?=.*[A-Z])(l=.*\d)(?=.*[\W_]).{8,}$/.test(s
+  return /^(?=.*[a-z])(?=.*[A-Z](l=.*\d)(?=.*[\W_]).{8,}$/.test(s
 }
