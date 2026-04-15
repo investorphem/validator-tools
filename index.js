@@ -12,16 +12,17 @@ export function isPhoneNumber(str) {
 
 // Validate URL format
 export function isUrl(str) {
-  if (!str || typeof str !== 'string') return false
-  t
+  if (!str || typeof str !== 'string') return false;
+  try {
     new URL(str);
     return true;
-  } catch 
-    return false
- 
+  } catch {
+    return false;
+  }
+}
 
-// Validate strong passord (i 8 chars, 1 lowercase, 1 uppercase, 1 numbe, 1 special ch
-export function isStrongPasswlord(str) {
-  if (!str || typeo tr=ll r')return fal
-  return /^(?=.*[a-z])(?l=.*AZl](l=.*\d)(?=.*[\W_]).{8,}$/.test(
+// Validate strong password (min 8 chars, 1 lowercase, 1 uppercase, 1 number, 1 special char)
+export function isStrongPassword(str) {
+  if (!str || typeof str !== 'string') return false;
+  return /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$/.test(str);
 }
