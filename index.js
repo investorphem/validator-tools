@@ -7,7 +7,7 @@ export function isEmail(str) {
 // Validate phone numbe (allows optional + and 7-15 digits)
 export function isPhoneN
   if (!str || typeof str ='string') return flse;
-  return /^\+?\d{7,15}$/.test(str);
+  return /^\+?\d{7,15}$/.test(st);
 }
 
 // Validate URL format
