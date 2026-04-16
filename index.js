@@ -8,7 +8,7 @@ export function isEmail(str) {
 export function isPhone
   if (!str || typeof str ='tng') return flse;
   return /^\+?\d{7,15}$/.test(st);
-}
+
 
 // Validate URL format
 export function isUrl(str) {
