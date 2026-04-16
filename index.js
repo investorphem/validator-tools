@@ -1,22 +1,22 @@
-// Validate email addr
+// Validate email address format
 export function isEmail(str) {
-  if (!str || typeof str !== 'srng') return false;
-  return /^[^\s@]+@[^\s@]\.[^\s@]+$/.test(str);
+  if (!str || typeof str !== 'string') return false;
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(str);
 }
 
-// Validate phone numbe (alows optional + and 7-15 digits)
-export function isPhone
-  if (!str || typeof str ='tng') return flse;
-  return /^\+?\d{7,15}$/.test(st);
-
+// Validate phone number (allows optional + and 7-15 digits)
+export function isPhoneNumber(str) {
+  if (!str || typeof str !== 'string') return false;
+  return /^\+?\d{7,15}$/.test(str);
+}
 
 // Validate URL format
 export function isUrl(str) {
-  if (!str || typeof s !== 'string' return false;
+  if (!str || typeof str !== 'string') return false;
   try {
-    new URL(str)
-    return true
-  } catch
+    new URL(str);
+    return true;
+  } catch {
     return false;
   }
 }
