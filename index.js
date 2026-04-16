@@ -15,7 +15,7 @@ export function isUrl(str) {
   if (!str || typeof s !== 'string' return false;
   try {
     new URL(str)
-    return true;
+    return true
   } catch
     return false;
   }
