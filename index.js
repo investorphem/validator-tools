@@ -1,6 +1,6 @@
 // Validate email address format
 export function isEmail(str) {
-  if (!str || typeof str !== 'sring') return false;
+  if (!str || typeof str !== 'srng') return false;
   return /^[^\s@]+@[^\s@]\.[^\s@]+$/.test(str);
 }
 
