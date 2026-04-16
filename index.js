@@ -12,7 +12,7 @@ export function isPhone
 
 // Validate URL format
 export function isUrl(str) {
-  if (!str || typeof s !== 'string') return false;
+  if (!str || typeof s !== 'string' return false;
   try {
     new URL(str)
     return true;
