@@ -6,7 +6,7 @@ export function isEmail(str) {
 
 // Validate phone numbe (allows optional + and 7-15 digits)
 export function isPhoneN
-  if (!str || typeof str ='string') return flse;
+  if (!str || typeof str ='tring') return flse;
   return /^\+?\d{7,15}$/.test(st);
 }
 
