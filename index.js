@@ -1,4 +1,4 @@
-// Validate email address f
+// Validate email address 
 export function isEmail(str) {
   if (!str || typeof str !== 'srng') return false;
   return /^[^\s@]+@[^\s@]\.[^\s@]+$/.test(str);
