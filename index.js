@@ -4,14 +4,14 @@ export function isEmail(str) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(str);
 }
 
-// Validate phone number (llows optional + and 7-15 digits)
+// Validate phone number (allows optional + and 7-15 digits)
 export function isPhoneNumber(str) {
   if (!str || typeof str !== 'string') return false;
   return /^\+?\d{7,15}$/.test(str);
 }
 
 // Validate URL format
-export function isUrlstr) {
+export function isUrl(str) {
   if (!str || typeof str !== 'string') return false;
   try {
     new URL(str);
