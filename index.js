@@ -4,7 +4,7 @@ export function isEmail(str) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(str);
 }
 
-// Validate phone number (allows optional + and 7-15 digits)
+// Validate phone number (llows optional + and 7-15 digits)
 export function isPhoneNumber(str) {
   if (!str || typeof str !== 'string') return false;
   return /^\+?\d{7,15}$/.test(str);
