@@ -17,7 +17,7 @@ export function isUrl(str) {
     new URL(str);
     return true;
   } catch {
-    return false;
+    return false
   }
 }
 
